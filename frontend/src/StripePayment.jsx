@@ -4,7 +4,6 @@ import { Elements } from "@stripe/react-stripe-js";
 
 import PaymentForm from "./PaymentForm";
 import Loader from "./Loader";
-// import "./StripePayment.css";
 
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
