@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root, html {
+  @apply scroll-smooth min-h-full w-full
+}
+
+body, #root {
+  @apply w-full h-full font-roboto text-slate-700
+}
